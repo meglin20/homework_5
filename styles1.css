@@ -1,0 +1,248 @@
+/* I order the almost all the selections by alphabetical order because this is the most standardized way. Everyone will be familiar with this order. This eliminates confusion*/
+/* It is also much easier for me to find a selection because I will know roughly the position (start, middle, or bottom of the page) without even looking at the details of the css file. I will be able to quickly find the specific selection by scrolling to the sectoon with the correct starting letter. */
+/*.menu-holder is not sorted in alphbetical order because the rules would be override if it is put on top*/
+@import url('https://fonts.googleapis.com/css2?family=Long+Cang&family=Berkshire+Swash&display=swap');
+body {
+    font-family:  'Roboto', sans-serif;
+    font-size: 120%;
+    color: #666;
+    background-color: white;
+    }
+
+.btn {
+    position: absolute;
+    top: 100%;
+    left: 20%;
+    background-color: rgb(253, 224, 168);
+    color: black;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    }
+
+.btn-1 {
+    float: left;
+    /* top: 100%;
+    left: 20%; */
+    background-color: rgb(253, 224, 168);
+    color: black;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 2px 4px 8px 2px rgba(0.1,0.1,0.1,0.2);
+}
+
+.btn-container {
+    margin-left:30%;
+}
+
+.cart-card {
+    margin-top:90px;
+    /* width: 400px;
+    box-shadow: 2px 4px 8px 2px rgba(0.1,0.1,0.1,0.2);
+    margin-left: auto;
+    margin-right: auto; */
+}
+
+.cart-mini-card {
+    margin:10px;
+    width: 400px;
+    box-shadow: 2px 4px 8px 2px rgba(0.1,0.1,0.1,0.2);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.cart-info {
+    text-align: center;
+}
+
+.center-mid-1{
+    width: 1100px;
+    /* background-color: #BEB594; */
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+.center-text {
+    text-align: left;
+}
+.center-2>h1, .center-2>p{
+    text-align: center;
+}
+
+.center-mid-1 .center-text{
+    font-style: normal;
+    font-weight: normal;
+}
+
+.column-1{
+    padding: 10px;
+    margin-right: 1;
+    float: left;
+    width: 60%;
+    box-shadow: 2px 4px 8px 2px rgba(0.1,0.1,0.1,0.2);
+}
+
+.column-2{
+    padding: 10px;
+    float: left;
+    width: 35%;
+    box-shadow: 2px 4px 8px 2px rgba(0.1,0.1,0.1,0.2);
+    height: 100%;
+}
+svg {
+    margin: 20px;
+}
+line{
+    stroke:grey;
+    stroke-width:3;
+}
+
+.events{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.events p {
+    font-size: 120%;
+    width: 400px;
+}
+.events h2{
+    display: inline;
+    border-style: solid;
+    border-width: normal;
+    padding: 10px;
+    background-color: #efeae6;
+}
+#events-section{
+    background-color: #ffd1c9;
+}
+fieldset {
+    width: 310px;
+    margin-top: 20px;
+    border: 1px solid #d6d6d6;
+    background-color: #ffffff;
+    line-height: 1.6em;
+}
+h1.center-text
+{
+    /* font-family: 'Berkshire Swash', serif; */
+    font-size: 550%;
+}
+.img-1{
+    margin: auto;
+    width: 100%;
+}
+.img-2{
+    margin: auto;
+    padding-left: 10px;
+    width: 30%;
+}
+
+li {
+    list-style-image: url("images/icon-plus.png");
+    line-height: 1.6em;
+}
+.location-of-events{
+    float: right;
+    padding-right: 50px;
+    padding-top: 160px
+}  
+.map{
+    float: right;
+    padding-right: 100px;
+}    
+
+.card{
+    margin: 15px;
+    width:330px;
+    height:440px;
+    background-color:white;
+    float:right;
+    box-shadow: 2px 4px 8px 2px rgba(0.1,0.1,0.1,0.2);
+    text-align: center;
+    /* margin: 0.01em; */
+}
+
+.card-1{
+    margin: 15px;
+    width: 800px;
+    height:300px;
+    background-color:white;
+    box-shadow: 0 4px 8px 0 rgba(0.1,0.1,0.1,0.2);
+    text-align: center;
+    /* margin: 0.01em; */
+}
+.container-0{
+    width: 55%;
+    float:left;
+    padding-left: -10px;
+    margin-right: 20px;
+}
+.container-1{
+    width: 35%;
+    float:left;
+    margin-left: 5px;
+}
+.card-product-name{
+    vertical-align: justify;
+}
+.card-product-desc{
+    vertical-align: center;
+}
+/* #page {
+    max-width: 940px;
+    min-width: 720px;
+    margin: 10px auto 10px auto;
+    
+    border: 4px  #000;
+    background-color: #f6f4e8;
+    vertical-align: baseline;
+} */
+
+.main-image{
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+  
+li {
+float: left;
+}
+
+a {
+display: block;
+padding: 8px;
+color: black;
+}
+
+.menu-holder{
+    padding-left: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.website-title{
+    padding-bottom: -90px;
+    color: #8F5E00; 
+}
+
+.title-menu{
+    width: 400px; 
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+

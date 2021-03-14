@@ -1,0 +1,107 @@
+body {
+    font-family:  'Caveat', sans-serif;
+    font-size: 120%;
+    color: #666;
+    background-color:white;
+}
+
+h1{ 
+    font-size: 200%;
+    font-style: italic;
+    font-weight: bold;
+    word-spacing: 2 em;
+    color: white;
+}
+
+h2{
+    text-shadow: 1px, 1px, 2px, #9CB7C9;
+}
+
+
+h3{
+    font-size: 95%;
+    text-transform: lowercase;
+}
+
+#disclaimer p{
+    font-size: 75%;
+    color: gray;
+    text-align: justify;
+}
+
+img{
+    vertical-align: middle;
+}
+
+a:link{
+    color: blue;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration:underline;
+}
+a:visited{
+    color: deeppink;
+}
+
+#contact a:link{
+    color: #009999;
+}
+
+#contact{
+    border-width: 2px;
+}
+
+.navbar li{
+    display: inline;
+    margin-right: 50px;
+}
+
+.navbar li.secret{
+    visibility:hidden;
+}
+
+.DrinkIntro h1{
+    font-size: 200%;
+    font-weight: bold;
+}
+
+.DrinkIntro p{
+    color: #003C64;
+    min-width: 800px;
+    text-align: center;
+    padding: 20px;
+    border-style: dotted;
+    border-width: 2px;
+    border-color: DarkCyan;
+    border-radius: 10px;
+    margin: 30px;
+    overflow: scroll;
+}
+
+.DrinkItems h2 ~ p{
+    color: blue
+}
+
+.DrinkItems br+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.DrinkItems > ul{
+    color: blue;
+}
+
+body:not(.DrinkItems) {
+    font-size: 1em;
+}
+
+body {
+    background-image: "pexels-wendy-wei-2813135.jpg";
+    background-color: #cccccc;
+   }
+
+ul {
+    list-style-image: url('"pexels-wendy-wei-2813135.jpg"');
+  }
